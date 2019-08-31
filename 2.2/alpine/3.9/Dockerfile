@@ -1,4 +1,4 @@
-FROM mcr.microsoft.cm/dotnet/core/sdk:2.2-apline3.9
+FROM mcr.microsoft.cm/dotnet/core/sdk:2.2-alpine3.9
 #Install OpenJDK 8 jre for sonarscanner
 RUN apk update && apk upgrade && apk add --no-cache openjdk8-jre-base
 
